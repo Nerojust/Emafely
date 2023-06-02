@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Emafely</string>
+    <string name="my_preferences">SharedPreferences</string>
+</resources>

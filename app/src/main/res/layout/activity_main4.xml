@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity4">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <ImageView
+               android:layout_width="30.5dp"
+               android:layout_height="20.32dp"
+               android:layout_marginTop="20dp"
+               android:background="@drawable/ic_baseline_keyboard_backspace_24"
+               android:layout_marginLeft="16dp"/>
+
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+             android:layout_gravity="center"
+              android:layout_marginTop="20dp"
+              android:orientation="horizontal">
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Announcement>>"
+                  android:textColor="#FF6969"
+                  android:textSize="12sp"/>
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="#525252"
+                  android:text="resumption date has been..."
+                  android:textSize="12sp"/>
+          </LinearLayout>
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="150dp"
+                       android:scaleType="fitXY"
+                       android:layout_gravity="center"
+                       android:layout_marginLeft="16dp"
+                       android:layout_marginRight="16dp"
+                       android:background="@drawable/image2"/>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="50dp"
+                   android:orientation="vertical"
+                   android:layout_marginLeft="16dp"
+                  android:gravity="center"
+                   android:layout_marginRight="16dp"
+                   android:background="#3B3F4B">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Explore a world"
+                       android:textSize="16sp"
+                       android:textStyle="bold"
+                       android:textColor="#FFFFFF"/>
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="of possibilities"
+                       android:textStyle="bold"
+                       android:textSize="16sp"
+                       android:textColor="#FFFFFF"/>
+           </LinearLayout>
+           </LinearLayout>
+           
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="2dp"
+               android:layout_marginTop="25dp"
+               android:background="#4F6D99"
+               android:layout_marginRight="70dp"
+               android:layout_marginLeft="70dp"/>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="20dp"
+               android:layout_weight="1"
+               android:orientation="horizontal">
+               <LinearLayout
+
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:orientation="vertical">
+
+                   <ImageView
+
+                       android:layout_width="wrap_content"
+                       android:layout_height="50dp"
+                       android:src="@drawable/imagefour"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="23dp"
+                       android:textSize="5sp"
+                       android:textStyle="bold"
+                       android:textColor=" #000000"
+                       android:layout_marginRight="23dp"
+                       android:text="Emafely is an International Private School, fully accredited by all necessary National and International agencies. We run both Nigeria and British Curriculum, and are well known for academic excellence and moral discipline."/>
+
+
+               </LinearLayout>
+
+               <LinearLayout
+
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+
+                   <ImageView
+
+                       android:layout_width="wrap_content"
+                       android:layout_height="50dp"
+                       android:src="@drawable/imagefour"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="23dp"
+                       android:textSize="5sp"
+                       android:textStyle="bold"
+                       android:textColor=" #000000"
+                       android:layout_marginRight="23dp"
+                       android:text="Emafely is an International Private School, fully accredited by all necessary National and International agencies. We run both Nigeria and British Curriculum, and are well known for academic excellence and moral discipline."/>
+
+               </LinearLayout>
+
+               <LinearLayout
+
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+
+                   <ImageView
+
+                       android:layout_width="wrap_content"
+                       android:layout_height="50dp"
+                       android:src="@drawable/imagefour"/>
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="23dp"
+                       android:textSize="5sp"
+                       android:textStyle="bold"
+                       android:textColor=" #000000"
+                       android:layout_marginRight="23dp"
+                       android:text="Emafely is an International Private School, fully accredited by all necessary National and International agencies. We run both Nigeria and British Curriculum, and are well known for academic excellence and moral discipline."/>
+
+               </LinearLayout>
+           </LinearLayout>
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginLeft="23sp"
+               android:layout_marginRight="23sp"
+               android:orientation="horizontal">
+
+
+               <LinearLayout
+                   android:layout_weight="2"
+                   android:layout_width="match_parent"
+                   android:layout_height="70dp"
+                   android:orientation="horizontal"
+                   android:gravity="center"
+                   android:background="@drawable/slide_one"
+                   android:layout_marginTop="30dp">
+
+                   <LinearLayout
+
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:orientation="vertical">
+
+                       <LinearLayout
+                           android:layout_marginTop="10dp"
+                           android:layout_width="20dp"
+                           android:layout_gravity="center"
+                           android:background="@drawable/slide_five"
+                           android:layout_height="20dp"
+                           android:orientation="vertical">
+
+                           <View
+                               android:layout_width="10dp"
+                               android:layout_height="15dp"
+                               android:layout_gravity="center"
+                               android:layout_marginTop="3dp"
+                               android:background="@drawable/slide_arrow"/>
+
+                       </LinearLayout>
+                   </LinearLayout>
+               </LinearLayout>
+
+
+
+               <View
+                   android:layout_width="15dp"
+                   android:layout_height="15dp"/>
+
+
+
+               <LinearLayout
+                   android:layout_weight="2"
+                   android:layout_width="match_parent"
+                   android:layout_height="70dp"
+                   android:orientation="horizontal"
+                   android:gravity="center"
+                   android:background="@drawable/show_5"
+                   android:layout_marginTop="30dp">
+
+                   <LinearLayout
+
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:orientation="vertical">
+
+                       <LinearLayout
+                           android:layout_marginTop="10dp"
+                           android:layout_width="20dp"
+                           android:layout_gravity="center"
+                           android:background="@drawable/slide_five"
+                           android:layout_height="20dp"
+                           android:orientation="vertical">
+
+                           <View
+                               android:layout_width="10dp"
+                               android:layout_height="15dp"
+                               android:layout_gravity="center"
+                               android:layout_marginTop="3dp"
+                               android:background="@drawable/slide_arrow"/>
+
+                       </LinearLayout>
+                   </LinearLayout>
+               </LinearLayout>
+
+
+
+               <View
+                   android:layout_width="15dp"
+                   android:layout_height="15dp"/>
+
+
+
+               <LinearLayout
+                   android:layout_weight="2"
+                   android:layout_width="match_parent"
+                   android:layout_height="70dp"
+                   android:orientation="horizontal"
+                   android:gravity="center"
+                   android:background="@drawable/milado"
+                   android:layout_marginTop="30dp">
+
+                   <LinearLayout
+
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:orientation="vertical">
+
+                       <LinearLayout
+                           android:layout_marginTop="10dp"
+                           android:layout_width="20dp"
+                           android:layout_gravity="center"
+                           android:background="@drawable/slide_five"
+                           android:layout_height="20dp"
+                           android:orientation="vertical">
+
+                           <View
+                               android:layout_width="10dp"
+                               android:layout_height="15dp"
+                               android:layout_gravity="center"
+                               android:layout_marginTop="3dp"
+                               android:background="@drawable/slide_arrow"/>
+
+                       </LinearLayout>
+                   </LinearLayout>
+               </LinearLayout>
+           </LinearLayout>
+           
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="120dp"
+               android:layout_marginTop="20dp"
+               android:orientation="vertical"
+               android:background="#A6A6A6">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Enrol Your Child Today"
+                       android:textStyle="bold"
+                       android:layout_gravity="center"
+                       android:textColor="#FFFFFF"
+                       android:layout_marginTop="10dp"/>
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="       We welcome your child to join us for an enriching  "
+                       android:layout_marginLeft="20dp"
+                       android:layout_marginRight="20dp"
+                       android:gravity="center"
+                       android:textSize="11sp"
+                       android:textColor="#FFFFFF" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text=" and enjoyable learning"
+                       android:textSize="11sp"
+                       android:layout_gravity="center"
+                       android:textColor="#FFFFFF"/>
+
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginBottom="10dp"
+                       android:layout_marginTop="10dp"
+                       android:orientation="horizontal">
+
+                       <View
+                           android:layout_width="110dp"
+                           android:layout_height="30dp"/>
+
+                       <LinearLayout
+                           android:layout_weight="1"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:gravity="center"
+                           android:background="@drawable/boxmi"
+                           android:orientation="vertical">
+
+
+
+                           <TextView
+                               android:layout_width="100dp"
+                               android:layout_height="50dp"
+                               android:gravity="center"
+                               android:textColor="#ffffff"
+                               android:paddingLeft="10dp"
+                               android:textSize="12sp"
+                               android:paddingRight="10dp"
+                               android:text="Enrol Now"/>
+
+                       </LinearLayout>
+                       <View
+                           android:layout_width="15dp"
+                           android:layout_height="15dp"/>
+
+
+                       <LinearLayout
+                           android:layout_weight="1"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:gravity="center"
+                           android:background="@drawable/boxmi"
+                           android:orientation="vertical">
+
+                           <TextView
+                               android:id="@+id/login1"
+                               android:layout_width="100dp"
+                               android:layout_height="50dp"
+                               android:textSize="12sp"
+                               android:textColor="#ffffff"
+                               android:gravity="center"
+                               android:text="Login"/>
+
+                       </LinearLayout>
+                       <View
+                           android:layout_width="110dp"
+                           android:layout_height="30dp"/>
+
+                   </LinearLayout>
+               </LinearLayout>
+
+           </LinearLayout>
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="2dp"
+               android:layout_marginTop="15dp"
+               android:background="#4F6D99"
+               android:layout_marginRight="70dp"
+               android:layout_marginLeft="70dp"/>
+
+               <TextView
+                   android:layout_marginTop="50dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textSize="12sp"
+                   android:gravity="center"
+                   android:textColor="#000000"
+                   android:text="Copyright 2023 | All Rights Reserved"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       </LinearLayout>
+   </ScrollView>
+</LinearLayout>

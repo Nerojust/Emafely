@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NurseryPage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            //     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="#45608C"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/arrow_dark_back20"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_baseline_keyboard_backspace_24"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome Victoria Ikivwaro"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kindly make your payment below"
+                android:textSize="14sp"
+                android:textColor="#FFFFFF"
+                android:gravity="center" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/linewa"/>
+
+            //   </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Payment via"
+                        android:paddingLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="12sp"
+                        android:textColor="#000000"/>
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_weight="1"/>
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="20dp"
+                        android:orientation="horizontal"
+                        android:background="@drawable/transparent_box">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="MasterCard/Verve/Visa"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_marginTop="12dp"
+                            android:textSize="12sp"/>
+
+                        <View
+                            android:layout_width="15dp"
+                            android:layout_height="10dp"
+                            android:layout_marginTop="15dp"
+                            android:background="@drawable/arrow_down_small"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Payment Summary"
+                android:textSize="10sp"
+                android:textColor="#000000"
+                android:layout_marginLeft="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/align"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/btn_total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total ="
+                    android:textSize="15sp"
+                    android:layout_marginTop="17dp"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="20dp"/>
+
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"/>
+
+
+
+                <LinearLayout
+                    android:id="@+id/layout_box"
+                    android:layout_width="100dp"
+                    android:orientation="vertical"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/plain_box">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="65,000"
+                        android:textSize="12sp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/markki"
+                    android:layout_marginTop="10dp"/>
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:text="I agree to the Terms and Conditions"
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_11"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/box_blue"
+                android:layout_marginTop="30dp"
+                android:text="Make Payment"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

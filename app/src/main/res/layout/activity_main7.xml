@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#45608C"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity7">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="30.5dp"
+                android:layout_height="30.32dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ic_baseline_arrow_back_24"
+                android:layout_marginLeft="16dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sex"
+                android:layout_marginTop="40dp"
+                android:textSize="14sp"
+                android:layout_marginLeft="16dp"
+                android:textColor="#FFFFFF"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+               android:gravity="end"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:background="@drawable/box_seven"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp">
+
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/seven_down_arrow"/>
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D.O.B"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"
+                android:layout_marginLeft="16dp"
+                android:textColor="#FFFFFF"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="end"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:background="@drawable/box_seven"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp">
+
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/seven_dot_dot"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home Phone"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"
+                android:layout_marginLeft="16dp"
+                android:textColor="#FFFFFF"/>
+
+            <EditText
+                android:id="@+id/et_home_phone"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="20dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:inputType="number"
+                android:background="@drawable/box_edittext"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home Address"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"
+                android:layout_marginLeft="16dp"
+                android:textColor="#FFFFFF"/>
+
+            <EditText
+                android:id="@+id/et_home_address"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingLeft="20dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:inputType="text"
+                android:background="@drawable/box_edittext"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="State of Origin"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"
+                android:layout_marginLeft="16dp"
+                android:textColor="#FFFFFF"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="end"
+                android:paddingRight="10dp"
+                android:orientation="horizontal"
+                android:background="@drawable/box_seven"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp">
+
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/seven_down_arrow"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:layout_gravity="end"
+                android:paddingLeft="35dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/white_button">
+
+                <ImageButton
+                android:id="@+id/button3"
+                android:layout_width="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_height="30dp"
+                android:background="@drawable/seven_button"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
