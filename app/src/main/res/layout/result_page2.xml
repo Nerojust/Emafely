@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultPage2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="17.5dp"
+                    android:layout_height="13.32dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/image3"
+                    android:layout_marginLeft="16dp"/>
+
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"/>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:paddingTop="1dp"
+                    android:paddingBottom="1dp"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/babymi"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Results for First Term"
+                android:textSize="20sp"
+                android:layout_marginTop="50dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/page_graph"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View More"
+                android:textSize="20sp"
+                android:textColor="#45608C"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:text="Bola is alway respectful, but needs to take her acedemic more seriously"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:text="Mrs Victoria Agu (Class Teacher)"/>
+
+            <ImageView
+                android:id="@+id/image_back"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/facemi"
+                android:layout_marginTop="10dp"/>
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

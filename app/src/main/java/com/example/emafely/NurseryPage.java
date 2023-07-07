@@ -30,7 +30,7 @@ public class NurseryPage extends AppCompatActivity {
         imageArrowButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(NurseryPage.this,PayFeePage.class);
+                Intent intent = new Intent(NurseryPage.this, PayGuide.class);
                 startActivity(intent);
             }
         });

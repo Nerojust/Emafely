@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Emafely</string>
     <string name="my_preferences">SharedPreferences</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Open</string>
+
 </resources>

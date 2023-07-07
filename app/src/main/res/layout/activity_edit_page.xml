@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:elevation="2dp"
+    android:background="#f9faf4"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="2dp"
+    app:cardUseCompatPadding="true"
+    tools:context=".EditPage">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="12dp"
+            tools:context="com.arkandarcs.MainActivity">
+
+            <View
+                android:id="@+id/edit_image"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/ic_baseline_arrow_back_24"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+                <View
+                    android:layout_width="135dp"
+                    android:layout_height="40dp"/>
+
+                <ImageView
+                    android:layout_width="87dp"
+                    android:layout_height="87dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/dashboard_image"/>
+                <View
+                    android:layout_width="85dp"
+                    android:layout_height="40dp"/>
+
+                <TextView
+                    android:id="@+id/edit_text"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:text="Edit"
+                    android:textSize="14sp"
+                    android:textColor="#304E7C"
+                    android:layout_marginTop="25dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kamsiyochukwu"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="true"
+                android:id="@+id/viewContainer"
+                android:layout_marginTop="20dp"
+                android:elevation="5dp"
+                android:orientation="vertical">
+
+
+
+                <TextView
+                    android:id="@+id/information_account"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginBottom="15dp"
+                    android:drawablePadding="13dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Account Information"
+                    android:background="@drawable/editbackground1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingStart="20dp"
+                    android:textColor="@color/white"
+                    android:paddingTop="15dp"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/tv_language"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:textColor="@color/white"
+                    android:paddingTop="15dp"
+                    android:paddingStart="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/editbackground1"
+                    android:drawablePadding="13dp"
+                    android:text="Language"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/tv_notification"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:textColor="@color/white"
+                    android:paddingTop="15dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingStart="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/editbackground1"
+                    android:drawablePadding="13dp"
+                    android:text="Notification"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/tv_contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/editbackground1"
+                    android:drawablePadding="13dp"
+                    android:text="Contact"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/white"
+                    android:paddingTop="15dp"
+                    android:paddingStart="20dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/tv_security"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/editbackground1"
+                    android:drawablePadding="13dp"
+                    android:textColor="@color/white"
+                    android:paddingTop="15dp"
+                    android:paddingStart="20dp"
+                   android:text="Privacy and Security"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/logout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="15dp"
+                    android:paddingTop="15dp"
+                    android:paddingStart="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/editbackground1"
+                    android:drawablePadding="13dp"
+                    android:text="Logout"
+                    android:inputType="phone"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:typeface="normal" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

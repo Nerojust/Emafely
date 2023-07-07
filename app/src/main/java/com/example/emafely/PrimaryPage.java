@@ -29,7 +29,7 @@ public class PrimaryPage extends AppCompatActivity {
         whiteArrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(PrimaryPage.this,PayFeePage.class);
+                Intent intent = new Intent(PrimaryPage.this, PayGuide.class);
                 startActivity(intent);
             }
         });

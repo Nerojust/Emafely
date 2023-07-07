@@ -34,14 +34,14 @@ public class CrecheFeePage extends AppCompatActivity {
         logIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CrecheFeePage.this,TransactionPage.class);
+                Intent intent = new Intent(CrecheFeePage.this, MakePayment1.class);
                 startActivity(intent);
             }
         });
         imageArrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CrecheFeePage.this,PayFeePage.class);
+                Intent intent = new Intent(CrecheFeePage.this, PayGuide.class);
                 startActivity(intent);
 
             }

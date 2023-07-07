@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#3B3F4B"
+    android:layout_height="900dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="X"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            android:textSize="25sp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Emafely Divine"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Treasure School"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#9C9B9B"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#9C9B9B"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/layout_announcement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Announcement"
+            android:layout_marginStart="105dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="70dp"
+            android:background="@drawable/header_view"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#9C9B9B"/>
+
+
+    <LinearLayout
+        android:id="@+id/layout_retreat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Retreat"
+            android:layout_marginStart="105dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="70dp"
+            android:background="@drawable/header_view"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#9C9B9B"/>
+
+    <LinearLayout
+        android:id="@+id/layout_admission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Admission"
+            android:layout_marginStart="105dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="70dp"
+            android:background="@drawable/header_view"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#9C9B9B"/>
+
+    <LinearLayout
+        android:id="@+id/layout_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Contact"
+            android:layout_marginStart="105dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="70dp"
+            android:background="@drawable/header_view"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#9C9B9B"/>
+
+    <LinearLayout
+        android:id="@+id/layout_support"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Support"
+            android:layout_marginStart="105dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="70dp"
+            android:background="@drawable/header_view"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#9C9B9B"/>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_log_out"
+        android:layout_width="210dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="Logout"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@drawable/box_edittext"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"/>
+
+
+
+
+
+</LinearLayout>

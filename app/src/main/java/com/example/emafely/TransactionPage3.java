@@ -19,6 +19,8 @@ public class TransactionPage3 extends AppCompatActivity {
         initListeners();
     }
     public void initViews() {
+
+
         arrow13 = findViewById(R.id.arrow15);
     }
     public void initListeners() {
