@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:id="@+id/drawer_layout"
     tools:openDrawer="start"
-    tools:context=".MainPage2">
+    tools:context=".activities.MainPage2">
 
 
     <com.google.android.material.navigation.NavigationView

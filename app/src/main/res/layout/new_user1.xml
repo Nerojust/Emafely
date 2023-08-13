@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:background="#45608C"
     android:layout_height="match_parent"
-    tools:context=".New_user1">
+    tools:context=".activities.New_user1">
 
     <ScrollView
         android:layout_width="match_parent"
