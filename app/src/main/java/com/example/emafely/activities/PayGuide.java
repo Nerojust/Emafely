@@ -37,7 +37,7 @@ public class PayGuide extends AppCompatActivity {
         layout1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(PayGuide.this,CrecheFeePage.class);
+                Intent intent = new Intent(PayGuide.this, CrecheFeeActivity.class);
                 startActivity(intent);
             }
         });

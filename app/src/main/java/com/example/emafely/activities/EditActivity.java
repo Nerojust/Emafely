@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import com.example.emafely.R;
 
-public class EditPage extends AppCompatActivity {
+public class EditActivity extends AppCompatActivity {
 
     private View arrowEdit;
     private TextView accountInformationTextView;
@@ -41,7 +41,7 @@ public class EditPage extends AppCompatActivity {
         arrowEdit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(EditPage.this,StudentDashboard.class);
+                Intent intent = new Intent(EditActivity.this,StudentDashboard.class);
                 startActivity(intent);
 
             }
@@ -49,7 +49,7 @@ public class EditPage extends AppCompatActivity {
         accountInformationTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(EditPage.this,ProfilePage.class);
+                Intent intent = new Intent(EditActivity.this,ProfilePage.class);
                 startActivity(intent);
             }
         });

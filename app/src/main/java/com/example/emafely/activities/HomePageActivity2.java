@@ -9,7 +9,7 @@ import android.view.View;
 
 import com.example.emafely.R;
 
-public class HomePage2 extends AppCompatActivity {
+public class HomePageActivity2 extends AppCompatActivity {
     private View view2Screen;
     private AppCompatButton getStartedButton;
 
@@ -29,14 +29,14 @@ public class HomePage2 extends AppCompatActivity {
         view2Screen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(HomePage2.this, HomePage1.class);
+                Intent intent = new Intent(HomePageActivity2.this, HomePageActivity1.class);
                 startActivity(intent);
             }
         });
         getStartedButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent (HomePage2.this, MainPage1.class);
+                Intent intent = new Intent (HomePageActivity2.this, MainPage1.class);
                 startActivity(intent);
             }
         });

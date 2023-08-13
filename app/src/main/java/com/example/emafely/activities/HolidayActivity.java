@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import com.example.emafely.R;
 
-public class Holiday extends AppCompatActivity {
+public class HolidayActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

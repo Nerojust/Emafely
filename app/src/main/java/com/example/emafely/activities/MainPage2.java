@@ -182,7 +182,7 @@ public class MainPage2 extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainPage2.this, ExistingUser.class);
+                Intent intent = new Intent(MainPage2.this, ExistingUserActivity.class);
                 startActivity(intent);
             }
         });

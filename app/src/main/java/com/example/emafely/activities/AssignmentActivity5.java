@@ -6,38 +6,39 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 
 import com.example.emafely.R;
 
-public class AssignmentPage4 extends AppCompatActivity {
-    private ImageView arrowBack;
-    private View viewButton;
+public class AssignmentActivity5 extends AppCompatActivity {
+
+    private ImageView back5;
+    private LinearLayout layout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_assignment_page4);
+        setContentView(R.layout.activity_assignment_page5);
 
         initViews();
         initListeners();
     }
     public void initViews() {
-        arrowBack = findViewById(R.id.back_z);
-        viewButton= findViewById(R.id.view_10_3);
-
+        back5 = findViewById(R.id.back_white5);
+        layout = findViewById(R.id.layout1);
     }
     public void initListeners() {
-        arrowBack.setOnClickListener(new View.OnClickListener() {
+        back5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(AssignmentPage4.this, AssignmentActivity3.class);
-                        startActivity(intent);
+                Intent intent = new Intent(AssignmentActivity5.this, AssignmentActivity4.class);
+                startActivity(intent);
             }
         });
-        viewButton.setOnClickListener(new View.OnClickListener() {
+        layout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(AssignmentPage4.this,AssignmentPage5.class);
+                Intent intent = new Intent(AssignmentActivity5.this, AssignmentActivity6.class);
                 startActivity(intent);
             }
         });

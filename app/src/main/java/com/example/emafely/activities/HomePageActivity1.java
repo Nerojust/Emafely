@@ -9,7 +9,7 @@ import android.view.View;
 
 import com.example.emafely.R;
 
-public class HomePage1 extends AppCompatActivity {
+public class HomePageActivity1 extends AppCompatActivity {
     private AppCompatButton loGin;
 
     @Override
@@ -30,7 +30,7 @@ public class HomePage1 extends AppCompatActivity {
         loGin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(HomePage1.this, HomePage2.class);
+                Intent intent = new Intent(HomePageActivity1.this, HomePageActivity2.class);
                 startActivity(intent);
             }
         });

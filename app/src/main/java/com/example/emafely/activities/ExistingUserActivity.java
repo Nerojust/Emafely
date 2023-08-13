@@ -16,11 +16,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.emafely.R;
+import com.example.emafely.constants.ConstantTreasure;
 
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class ExistingUser extends AppCompatActivity {
+public class ExistingUserActivity extends AppCompatActivity {
 
     private AppCompatButton button;
     private EditText userNameEditText;
@@ -106,9 +107,9 @@ public class ExistingUser extends AppCompatActivity {
             public void onClick(View v) {
 
                 if(ValidateuserName()) {
-                    Toast.makeText(ExistingUser.this, "Provide correct username", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(ExistingUserActivity.this, "Provide correct username", Toast.LENGTH_SHORT).show();
                     saveData();
-                    Intent intent = new Intent(ExistingUser.this, New_user1.class);
+                    Intent intent = new Intent(ExistingUserActivity.this, New_user1.class);
                     startActivity(intent);
                 }
             }

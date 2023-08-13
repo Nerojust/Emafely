@@ -37,7 +37,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".activities.EditPage"
+            android:name=".activities.EditActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -51,7 +51,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".activities.Holiday"
+            android:name=".activities.HolidayActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -114,7 +114,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".activities.CrecheFeePage"
+            android:name=".activities.CrecheFeeActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -135,21 +135,21 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".activities.AssignmentPage6"
+            android:name=".activities.AssignmentActivity6"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".activities.AssignmentPage5"
+            android:name=".activities.AssignmentActivity5"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".activities.AssignmentPage4"
+            android:name=".activities.AssignmentActivity4"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -219,14 +219,14 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".activities.ExistingUser"
+            android:name=".activities.ExistingUserActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".activities.HomePage1"
+            android:name=".activities.HomePageActivity1"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -240,7 +240,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".activities.HomePage2"
+            android:name=".activities.HomePageActivity2"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

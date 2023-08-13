@@ -64,7 +64,7 @@ public class StudentDashboard extends AppCompatActivity   {
         holidays.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(StudentDashboard.this, Holiday.class);
+                Intent intent = new Intent(StudentDashboard.this, HolidayActivity.class);
                 startActivity(intent);
             }
         });
@@ -93,7 +93,7 @@ public class StudentDashboard extends AppCompatActivity   {
         dashboardImageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(StudentDashboard.this, EditPage.class);
+                Intent intent = new Intent(StudentDashboard.this, EditActivity.class);
                 startActivity(intent);
             }
         });

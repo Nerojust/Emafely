@@ -9,7 +9,7 @@ import android.widget.ImageView;
 
 import com.example.emafely.R;
 
-public class AssignmentPage6 extends AppCompatActivity {
+public class AssignmentActivity6 extends AppCompatActivity {
     private ImageView backArrow;
 
     @Override
@@ -27,7 +27,7 @@ public class AssignmentPage6 extends AppCompatActivity {
         backArrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(AssignmentPage6.this,AssignmentPage5.class);
+                Intent intent = new Intent(AssignmentActivity6.this, AssignmentActivity5.class);
                 startActivity(intent);
             }
         });

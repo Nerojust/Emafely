@@ -36,7 +36,7 @@ public class AssignmentActivity3 extends AppCompatActivity {
         viewTwo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(AssignmentActivity3.this,AssignmentPage4.class);
+                Intent intent = new Intent(AssignmentActivity3.this, AssignmentActivity4.class);
                 startActivity(intent);
             }
         });

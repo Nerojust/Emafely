@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import com.example.emafely.R;
 
-public class CrecheFeePage extends AppCompatActivity {
+public class CrecheFeeActivity extends AppCompatActivity {
      private TextView totalTextView;
      private LinearLayout layout;
      private AppCompatButton logIn;
@@ -36,14 +36,14 @@ public class CrecheFeePage extends AppCompatActivity {
         logIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CrecheFeePage.this, MakePayment1.class);
+                Intent intent = new Intent(CrecheFeeActivity.this, MakePayment1.class);
                 startActivity(intent);
             }
         });
         imageArrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CrecheFeePage.this, PayGuide.class);
+                Intent intent = new Intent(CrecheFeeActivity.this, PayGuide.class);
                 startActivity(intent);
 
             }
